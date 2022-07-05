@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+}
+.hero {
+    position: absolute;
+    background-color: rgb(150, 77, 218);
+    background-size: cover;
+    width: 100%;
+    height:100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 30%;
+    
+}
+.logo{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    left: 15px;
+    top: 5%;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;  
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.button{
+    width: 12%;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    color:  white;
+    cursor: pointer;
+}
+.txt {
+    text-align: center;
+    margin-top: 15%;
+}
+.txt h1{
+     letter-spacing: 3px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.txt p{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 13%;
+    margin-left: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: yellowgreen;
+    border-radius: 9px;
+    border: 2px solid transparent;
+    color: white;
+}
+.all {
+    width: 13%;
+    margin-left: 10%;
+    position: absolute;
+    margin-top: -6%;
+    padding: 15px 20px;
+    border: none;
+    background-color: #444;
+    border-radius: 9px;
+    color: white;
+    border: 2px solid transparent;
+}
+
